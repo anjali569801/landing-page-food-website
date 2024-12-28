@@ -1,0 +1,41 @@
+@import 'src/index.css';
+
+nav{
+    width:100vw;
+    height: 50px;
+    background-color:var(--secondary-color) ;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: end;
+    padding-right: 100px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap:30px;
+  
+}
+
+a{
+    text-decoration: none;
+    color:var(--main-color);
+    font-weight: 600;
+    font-size: large;
+}
+
+.btn{
+    width: 150px;
+    height: 35px;
+    background-color: var(--main-color);
+    opacity: 80%;
+    color:#FFFFFF;
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+    gap:20px;
+    padding:5px 30px;
+    font-size: 18px;
+}
+

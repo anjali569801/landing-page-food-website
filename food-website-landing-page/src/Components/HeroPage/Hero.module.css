@@ -1,0 +1,107 @@
+@import 'src/index.css';
+
+
+.intro{
+    display: flex;
+    padding-block:50px;
+    justify-content: space-evenly;
+    
+    object-fit:contain;
+   
+}
+.content{
+    width:50%;
+    text-align: center;
+}
+
+.heading{
+    color:white;
+    font-size: 40px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.headingMain{
+    color: var(--secondary-color);
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-size: 40px;
+
+}
+
+.headingSecondary{
+    color:white;
+    font-size: medium;
+    margin-bottom: 30px;
+
+}
+.introText{
+    color:white;
+    font-size: medium;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+img{
+    height: 300px;
+    width: 300px;
+}
+
+.heading2{
+    color: var(--secondary-color);
+    margin-left: 45px;
+    margin-bottom: 20px;
+}
+
+.rating{
+    color:var(--secondary-color)
+}
+
+.foodBox{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    width:300px;
+    padding:10px;
+    border-radius: 15px;
+    border:2px solid var(--secondary-color)
+
+}
+.foodItem{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.aboutFood{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    list-style: none;
+}
+
+.foodImg{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.heading3{
+    color:white;
+    font-size: 20px;
+    
+}
+
+.heading3 span{
+    color:var(--secondary-color)
+}
+
+.nextItem{
+    /* width: 50px; */
+    /* height: 60px; */
+    margin-left: 55px;
+    font-size: 35px;
+    color:var(--secondary-color);
+    border-radius: 100%;
+    text-align: center;
+}

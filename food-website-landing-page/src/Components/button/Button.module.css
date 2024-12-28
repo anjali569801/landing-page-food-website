@@ -1,0 +1,16 @@
+@import 'src/index.css';
+
+button{
+   background-color: var(--secondary-color);
+   color:var(--main-color);
+   padding-inline: 40px;
+   padding-block:10px ;
+   border:none;
+   border-radius: 15px;
+   font-size: large;
+   font-weight:600;
+}
+
+.btn{
+    box-shadow: 5px 5px 20px rgba(var(--secondary-color), 0.5);
+}
