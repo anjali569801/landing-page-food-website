@@ -6,7 +6,7 @@ function About() {
     <section id='about' className={styles.container}>
         <h1 className={styles.heading}>About</h1>
         <div className={styles.contentBox}>
-        <img src="src/assets/about.jpg" alt="" />
+        <img src="src/assets/about.jpg" alt=""  className={styles.img}/>
         <div className={styles.content}>
             <p className={styles.contentText}>We Pride Outserves  On Making Real Food The Best Ingredients.
                 We Make Everything By Hand With The Best Possible Ingredients.<br/>

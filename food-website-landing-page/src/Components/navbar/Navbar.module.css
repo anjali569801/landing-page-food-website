@@ -1,6 +1,6 @@
 @import 'src/index.css';
 
-nav{
+.nav{
     width:100vw;
     height: 50px;
     background-color:var(--secondary-color) ;
@@ -9,16 +9,25 @@ nav{
     align-items: center;
     justify-content: end;
     padding-right: 100px;
+    z-index:1;
+    position: fixed;
+    
+
 }
 
-ul{
+.listItems{
     list-style: none;
     display: flex;
     gap:30px;
   
 }
+.listItem:hover{
+    text-decoration: underline;
+    transform: scale(1.2);
 
-a{
+}
+
+.listItem a{
     text-decoration: none;
     color:var(--main-color);
     font-weight: 600;
@@ -39,3 +48,65 @@ a{
     font-size: 18px;
 }
 
+.listMenu{
+    display:none;
+    
+}
+
+
+
+
+
+@media (max-width:430px){
+    .nav{
+        align-items: center;
+        justify-content: space-evenly;   
+        padding-right: 0;
+    }
+
+
+    .btn{
+        margin-inline: 2px;
+    }
+
+    
+    .listMenu{
+        display: block;
+        height:40px;
+        width: 40px;
+        margin-left:50px;
+    } 
+
+    .listItems{
+        display: none;
+       flex-direction: column;
+       position: absolute;
+       top:60px;
+       right:10px;
+       padding:20px 50px;
+       border: 2px solid var(--secondary-color);
+       border-radius: 20px;
+       background-color: var(--main-color);
+       opacity: 80%;
+     
+    }
+    .listItemsOpen{
+        display:flex; 
+    }
+    .listItem a{
+        color:var(--secondary-color);
+        
+    }
+
+    .listItem{
+        border-bottom: 2px solid var(--secondary-color);
+    }
+    .listItem:hover {
+        background-color: var(--secondary-color);
+        padding:5px;
+        
+    }
+    .listItem:hover a{
+        color:var(--main-color);
+    }
+}

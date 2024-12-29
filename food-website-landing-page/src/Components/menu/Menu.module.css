@@ -24,13 +24,10 @@
 }
 .contentBox2{
     display: flex;
-    /* background-color:red; */
-    
     flex-direction: row-reverse;
     align-items: start;
     align-items: center;
     justify-content: space-evenly;
-    /* gap:20px; */
     margin:20px 50px;
     padding-bottom:50px;
     border-bottom: 5px solid var(--secondary-color)
@@ -57,7 +54,51 @@
 }
 
 .foodItems{
-    /* background-color: bisque; */
+   
     width: 50%;
     
+}
+
+
+
+
+
+
+
+
+@media (max-width:430px) {
+    .contentBox{
+        flex-direction: column-reverse;
+        margin:0;
+    
+    }
+
+    .contentBox2{
+        flex-direction: column-reverse;
+        margin:0;
+    }
+    
+    .contentText{
+    font-size: 25px;
+
+    }
+
+    .content{
+    width:90%;
+    }
+
+    .foodItems{
+        width: 100%;   
+    }
+
+    .img{
+        height: 350px;
+        width:350px;
+        object-fit: cover;
+        margin-inline: 20px;
+        margin-top:30px ;
+        border:2px solid var(--secondary-color);
+        border-radius: 20px;
+    }
+
 }

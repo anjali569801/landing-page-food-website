@@ -31,3 +31,19 @@
     margin-bottom: 50px;
 
 }
+
+
+@media (max-width:430px) {
+    .contentBox{
+        flex-direction: column;
+    }
+    .contentText{
+        font-size: 25px;
+    }
+
+    .img{
+        width: 350px;
+        border:2px solid var(--secondary-color);
+        border-radius: 20px;
+    }
+}
