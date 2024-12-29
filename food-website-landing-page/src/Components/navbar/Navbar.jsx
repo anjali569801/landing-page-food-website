@@ -39,8 +39,9 @@ function Navbar() {
         </ul>
         
 
-        <button className={styles.btn}><FaSearch/>
-        search</button>
+        <input placeholder='search' className={styles.btn}/>
+        {/* <button className={styles.btn}><FaSearch/>
+        search</button> */}
         {!listItems &&<GiHamburgerMenu onClick={onMenuClick}   className={styles.listMenu}/>}
         {listItems && <MdCancelPresentation onClick={onCancelClick}   className={styles.listMenu} />}
 

@@ -5,10 +5,11 @@
     display: flex;
     padding-block:50px;
     justify-content: space-evenly;
-    
-    object-fit:contain;
+    position: relative;
+    object-fit:contain; 
    
 }
+
 .content{
     width:50%;
     text-align: center;
@@ -108,20 +109,33 @@ img{
 }
 
 
-@media (max-width:820px) {
-    .intro{
-        flex-direction: column-reverse;
+@media (max-width:760px) {
+   
+  .intro{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-bottom:50px;
+  }
+
+  .content{
+    width:80%;
+    text-align: center;
     }
 
-
+    .heading2{
+        margin-left: 0px;
+    }
+   
     
    .foodBox{
     gap:15px;
-    width:250px;
+    width:160px;
     padding:5px;
-
+    flex-direction: column;
+    padding-bottom: 10px;
    }
-
+   
    
 }
 

@@ -6,7 +6,7 @@ import Button from '../button/Button'
 
 function Hero() {
   return (
-    <section >
+    <section className={styles.heroSection}>
       <div className={styles.intro}>
         <div className={styles.content}>
             <h1 className={styles.heading}>A Chef in Every </h1>

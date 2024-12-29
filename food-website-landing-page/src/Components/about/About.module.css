@@ -33,6 +33,17 @@
 }
 
 
+@media (max-width:760px) {
+    img{
+        margin-inline: auto;
+    }
+    .contentBox{
+        flex-wrap:wrap ;  
+        align-items: center;
+    }
+}
+
+
 @media (max-width:430px) {
     .contentBox{
         flex-direction: column;

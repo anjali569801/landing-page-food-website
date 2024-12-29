@@ -62,43 +62,60 @@
 
 
 
-
-
-
-
-@media (max-width:430px) {
+@media (max-width:760px) {
     .contentBox{
         flex-direction: column-reverse;
         margin:0;
     
     }
-
     .contentBox2{
         flex-direction: column-reverse;
         margin:0;
     }
     
-    .contentText{
-    font-size: 25px;
-
-    }
-
-    .content{
-    width:90%;
-    }
-
     .foodItems{
-        width: 100%;   
-    }
-
-    .img{
-        height: 350px;
-        width:350px;
+        display: flex;
+        width: 80%;
+        /* flex-wrap: wrap; */
+    
+    } 
+    .content{
+        width:90%;
+        margin-top:30px;
+     }
+     .img{
+        height: 250px;
+        width:250px;
         object-fit: cover;
         margin-inline: 20px;
         margin-top:30px ;
         border:2px solid var(--secondary-color);
         border-radius: 20px;
     }
+}
+
+
+
+
+
+
+
+@media (max-width:520px) {
+   
+    .contentText{
+    font-size: 25px;
+
+    }
+    .foodItems{
+        flex-wrap:wrap ;
+    }
+
+    .img{
+        height: 350px;
+        width:350px;
+        
+    }
+
+   
 
 }
